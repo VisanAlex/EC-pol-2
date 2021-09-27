@@ -1,0 +1,74 @@
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+.pNomi {
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0.1em 20px rgba(0, 0, 0, 1), 0.05em -0.03em 0 rgba(0, 0, 0, 1),
+    0.05em 0.005em 0 rgba(0, 0, 0, 1), 0em 0.08em 0 rgba(0, 0, 0, 1),
+    0.05em 0.08em 0 rgba(0, 0, 0, 1), 0px -0.03em 0 rgba(0, 0, 0, 1),
+    -0.03em -0.03em 0 rgba(0, 0, 0, 1);
+}
+
+img.background {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  -webkit-filter: blur(7px); /* Safari 6.0 - 9.0 */
+  filter: blur(12px);
+}
+
+.descrizione {
+  margin-top: 25rem;
+}
+
+.teoriaSF {
+  background-image: url("./assets/Untitled-3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+.teoriaEc {
+  background-image: url("./assets/Untitled-4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.teoriaAngoloEc {
+  width: 0;
+  height: 0;
+  border-top: 13.6rem solid lightgrey;
+  opacity: 0.3;
+  border-left: 6rem solid transparent;
+}
+
+.teoriaAngoloSF {
+  width: 0;
+  height: 0;
+  border-bottom: 13.5rem solid lightgrey;
+  opacity: 0.3;
+  border-right: 6vh solid transparent;
+}
+
+.scrittaEcP {
+  font-size: 1.23rem;
+  text-align: right;
+}
+
+.scrittaSF {
+  font-size: 1.23rem;
+  text-align: left;
+  letter-spacing: -0.1rem;
+  word-spacing: -0.1rem;
+}
+
+.faccie {
+  margin-top: 18rem;
+}
