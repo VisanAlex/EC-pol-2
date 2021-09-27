@@ -91,3 +91,63 @@
     transform: scale(1) rotateZ(-3deg);
   }
 }
+
+.banner {
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  height: 37.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000), var(--img) 50% / cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+
+  &:nth-of-type(1) {
+    --img: url(https://images.unsplash.com/photo-1509456592530-5d38e33f3fdd?ixlib=rb-1.2.1&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ);
+  }
+}
+
+.banner2 {
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  height: 37.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000), var(--img) 50% / cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+
+  &:nth-of-type(1) {
+    --img: url(https://c.tenor.com/gySvqBfzkkoAAAAd/narcos-narcos-gif.gif);
+  }
+}
+
+.banner3 {
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  height: 37.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000), var(--img) 50% / cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+
+  &:nth-of-type(1) {
+    --img: url(https://imagesawe.s3.amazonaws.com/articles/2021/03/relationship_tips.jpg);
+  }
+}
+
+.banner4 {
+  margin-left: calc(50% - 50vw);
+  width: 100vw;
+  height: 37.5vmin;
+  min-height: 15em;
+  background: linear-gradient(#000, transparent, #000), var(--img) 50% / cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+
+  &:nth-of-type(1) {
+    --img: url(https://formiche.net/wp-content/blogs.dir/10051/files/2017/09/John-Maynard-Keynes.jpg);
+  }
+
+  &:nth-of-type(2) {
+    --img: url(https://pbs.twimg.com/media/EapehZHUcAAcFMR.jpg);
+  }
+}

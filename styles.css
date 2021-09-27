@@ -1,5 +1,6 @@
 * {
   font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
 }
 
 .pNomi {
@@ -32,6 +33,7 @@ img.background {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
+  height: 15rem;
 }
 
 .teoriaEc {
@@ -39,6 +41,7 @@ img.background {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: left;
+  height: 15rem;
 }
 
 .teoriaAngoloEc {
@@ -65,10 +68,13 @@ img.background {
 .scrittaSF {
   font-size: 1.23rem;
   text-align: left;
-  letter-spacing: -0.1rem;
-  word-spacing: -0.1rem;
 }
 
 .faccie {
   margin-top: 18rem;
+}
+
+.scrittaSF,
+.scrittaEcP {
+  font-weight: 600;
 }
